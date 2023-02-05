@@ -1,0 +1,41 @@
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:1600px) {
+    .responsive{
+        padding: 0px 20px;
+        background-color: brown;
+    }
+    /* .responsive{
+        width: 100%;
+        height: auto;
+    } */
+}
+
+@media screen and (max-width:1400px) {
+    .responsive{
+        padding: 0px 20px;
+        background-color: brown;
+    } 
+}
+
+@media screen and (max-width:1200px) {
+    .responsive{
+        padding: 0px 20px;
+        background-color:green;
+    }
+}
+@media screen and (max-width:1000px) {
+    .responsive{
+        padding: 0px 20px;
+        background-color:yellow;
+    }
+}
+@media screen and (max-width:800px) {
+    .responsive{
+        padding: 0px 20px;
+        background-color: gray;
+    }
+}

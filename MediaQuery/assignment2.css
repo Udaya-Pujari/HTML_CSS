@@ -1,0 +1,105 @@
+body{
+    margin: auto;
+}
+.main{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#quickSearch{
+    height: 500px;
+    width: 100%;
+    /* border: 5px solid orange; */
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.tileContainer{
+  height: 100px;
+  border: 20x solid red;
+  width: 30%;
+  margin-left: 2%;
+}
+.tileComponentHeading{
+    height: 160px;
+    width: 20%;
+    /* border: 1px solid red; */
+    margin-left: 2%;
+    margin-top: 2%;
+    display: inline-block; 
+}
+.tileComponentHeading:hover{
+    transform: scale(1.1); 
+}
+.tileComponent1{
+    width:50%;
+    float:left;
+    
+}
+.tileComponent1 > img{
+    height:160px;
+    width:100%;
+}
+.tileComponent2{
+    width:40%;
+    float:left;
+}
+.componentHeading{
+    font-size: 25px;
+    font-weight: bold;
+    color:#192f60;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.componentSubHeading{
+    font-size: 14px;
+    color:gray;
+    font-weight: bold;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+   
+@media screen and (max-width:1600px) {
+    body{
+        background-color:lightgoldenrodyellow ;
+    }
+}
+@media screen and (max-width:1400px) {
+    body{
+        background-color:lightsalmon ;
+    }
+    .tileComponentHeading{
+        width: 45%;
+    }
+}
+@media screen and (max-width:1200px) {
+    body{
+        background-color:skyblue ;
+    }
+    /* .tileComponentHeading{
+        width: 45%;
+    } */
+}
+@media screen and (max-width:1000px) {
+    body{
+        background-color:lightslategrey ;
+    }
+    .componentSubHeading{
+        color: white;
+    }
+}
+@media screen and (max-width:800px) {
+    body{
+        background-color:lightpink ;
+    }
+    .tileComponentHeading{
+        width: 75%;
+    }
+}
+@media screen and (max-width:600px) {
+    body{
+        background-color:lightgreen ;
+    }
+    .tileComponentHeading{
+        width: 85%;
+    }
+}

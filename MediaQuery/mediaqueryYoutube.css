@@ -1,0 +1,17 @@
+div{
+    padding: 50px;
+    background-color: aquamarine;
+    color:rgb(50, 128, 245);
+}
+h1{
+    margin: 0;
+}
+
+button{
+    background-color: lightcoral;
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
